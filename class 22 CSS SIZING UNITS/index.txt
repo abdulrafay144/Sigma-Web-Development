@@ -1,0 +1,16 @@
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units
+
+VH (VIEWPORT HEIGHT)
+VW (VEWPORT WIDTH)
+
+Viewport height and width can only be applied on block elements not inline
+
+REM (Root Font Size)
+EM (Element Font Size)
+
+Agar ap chahten ho ke bagair text ke he box ke width ya height zyada space len to min-width / min-height ka use kro For eg
+min-height: 80vh 
+aur ab isme jitna text chezen dalte rhoge ye utna he bara hota jaega 
+
+VMIN
+VMAX

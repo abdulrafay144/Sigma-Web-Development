@@ -1,0 +1,31 @@
+KIS ELEMENT KE ZYADA IMPORTANCE HAIN?:
+Inline Style>ID Selector>Class/Attribute Selector>Element Selector>Universal Selector
+
+Agar ek he tag ko 3 ya 4 classes de dee jaen aur un sare classes ko style dediya jaen to us class ka style apply hoga jo sbse end me hogeen.Css baad wale styles ko importance deta.
+
+but if you write important with an Element then it will apply the style of that Element
+FOR EXAMPLE:
+Normally if you write <h1 class="color" style=" color:"blue" ">
+.color{
+    color: yellow;
+}
+It will give importance to inline and apply blue color but if you write <h1 class="color" style=" color:"blue" ">
+.color{
+    color: yellow Important;
+}
+then it will apply yellow
+
+JITNI ZYADA SPECIFICITY HOGE JIS ELEMENT KE USI KA STYLE APPLY HOGA
+
+
+
+
+WHAT IS ATTRIBUTE SELECTOR:
+for example: <h1 data-x="a"></h1>
+NOW WHEN YOU WILL STYLE IT:
+[data-x=a]{
+    .....
+}
+
+FOR MORE INFO:
+https://www.codewithharry.com/tutorial/css-specificity/
