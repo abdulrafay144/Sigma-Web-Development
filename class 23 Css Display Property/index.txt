@@ -1,0 +1,4 @@
+If you use display inline property to make a block element inline so make sure to display inline-block because in display inline you can't the width,margin-top,padding-top etc
+Display none used for completely removing the thing i.e its space its text everthing in the div
+ Visibility(Hidden) Used For Just hide the div but it will not remove the space of div 
+ 
