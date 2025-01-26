@@ -1,0 +1,17 @@
+# overflow: scroll; (MAKE A SCROLLBAR AND ALSO MAKE A VERTICAL SCROLLBAR)
+
+# overflow: auto; (ONLY MAKE A SCROLLBAR IF CONTENT IS OVERFLOWING OTHERWISE NOT MAKE)
+
+# overflow: hidden; (HIDE THE OVERFLOWING CONTENT)
+
+# overflow: clip; ( WRITE "..." IN THE PLACE OF OVERFLOWING CONTENT)
+
+# white-space: nowrap; (MAKE THE SCROLLBAR HORIZONTAL)
+
+# text-overflow: ellipsis; (WRITE "..." IN THE PLACE OF OVERFLOWING CONTENT But it has a minor difference from overflow:clip; that in overflow: clip; the programmers can't even see the remaining text where ... has written but in text-overflow programmers can see)
+
+# overflow-x: (MAKE THE OVERFLOW CHANGES FROM X)
+
+# overflow-y: (MAKE THE OVERFLOW CHANGES FROM X)
+
+# overflow: x y (SHORTCUT TO WRITE X & Y BOTH)

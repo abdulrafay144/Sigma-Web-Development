@@ -1,0 +1,10 @@
+#list-style-type & list-style have same work
+
+#list-style-image used if you want to put image instead of the lists
+
+#list-style-position used because when you add a background color or border etc to li so it only apply to the content not the list,becuase list is outside from the li that's why we used list-style-position: inside; to also include the list 
+
+#If you want to put any emoji instead of the lists then you can write lis-style-type: "EMOJI HERE"; Make sure to put "" othervise emoji will not be shown
+
+#there is also a shortcut to write list-style and position or list-style-image and position in one line i.e:
+list-style: circle inside or list-style: inside url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif");
